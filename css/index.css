@@ -200,7 +200,6 @@ h3{
 }
 
 .contact_content form input.send:hover{
-  border: none;
   background-color: #EEB530;
   color: #fff;
   box-shadow: 0px 0px 10px #EEB530;
