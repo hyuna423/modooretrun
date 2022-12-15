@@ -196,6 +196,14 @@ h3{
   border: 2px solid #EEB530;
   color: #EEB530;
   font-weight: 600;
+  transition: all 0.8s;
+}
+
+.contact_content form input.send:hover{
+  border: none;
+  background-color: #EEB530;
+  color: #fff;
+  box-shadow: 0px 0px 10px #EEB530;
 }
 
 .contact_content form textarea{
