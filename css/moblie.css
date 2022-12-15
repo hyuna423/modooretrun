@@ -19,8 +19,7 @@
     }
 
     .roadmap_content.mobile::after{
-      height: 120%;
-      top: -3%;
+      top: -1%;
     }
 
     .roadmap_line_first .rdmp_line_right::after, .roadmap_line_third .rdmp_line_right::after, .roadmap_line_fifth .rdmp_line_right::after{
@@ -60,10 +59,7 @@
       width: 70%;
     }
 
-    .roadmap_content.mobile::after{
-      height: 120.5%;
-    }
-    
+
     .roadmap_line_first .rdmp_line_right::after, .roadmap_line_third .rdmp_line_right::after, .roadmap_line_fifth .rdmp_line_right::after{
       width: 67%;
     }
@@ -135,9 +131,7 @@
     margin-top: 20%;
   }
 
-  .roadmap_content.mobile::after{
-    height: 118%;
-  }
+
   
   .roadmap_line_first .rdmp_line_right::after, .roadmap_line_third .rdmp_line_right::after, .roadmap_line_fifth .rdmp_line_right::after{
     width: 59.5%;

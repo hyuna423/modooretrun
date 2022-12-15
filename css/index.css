@@ -32,6 +32,7 @@ h3{
   text-align: center;
   color: #fff;
   padding: 100px 0;
+  overflow: hidden;
 }
 
 #Roadmap h3{
@@ -65,8 +66,8 @@ h3{
 
 .roadmap_content.mobile::after{
   width: 6px;
-  height: 127%;
-  top: -8%;
+  height: 130%;
+  top: -5%;
   left: 49.7%;
   background: linear-gradient(#B1B1B1, rgba(164,134,57,0.1));
   border-radius: 5px 5px 0 0;
