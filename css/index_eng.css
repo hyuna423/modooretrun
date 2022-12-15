@@ -3,8 +3,10 @@
     address{font-style:normal;}
 
 
-
-
+     .rdmp_line br{
+      display: none;
+    }
+ 
     
 /*데탑*/
 @media screen and (max-width:1440px) {
