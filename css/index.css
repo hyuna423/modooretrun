@@ -34,6 +34,11 @@ h3{
   padding: 100px 0;
 }
 
+#Roadmap h3{
+  position: relative;
+  z-index: 6;
+}
+
 #Roadmap::after{
   content: "";
   width: 100%;
