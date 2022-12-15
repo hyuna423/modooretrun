@@ -7,12 +7,87 @@
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    /*roadmap*/
+
+    .roadmap_content{
+      width: 60%;
+    }
+
+    .rdmp_line br{
+      display: none;
+    }
+
+    .roadmap_content.mobile::after{
+      height: 120%;
+      top: -3%;
+    }
+
+    .roadmap_line_first .rdmp_line_right::after, .roadmap_line_third .rdmp_line_right::after, .roadmap_line_fifth .rdmp_line_right::after{
+      width: 69.78%;
+    }
+
+    .roadmap_line_second .rdmp_line_left::after, .roadmap_line_fourth .rdmp_line_left::after, .roadmap_line_sixth .rdmp_line_left::after{
+      width: 69.78%;
+    }
+
+
+    /*contact*/
+
+    .contact_content form textarea{
+      height: 300px;
+    }
+
+       
+    .contact_content form input.name, .contact_content form input.email{
+      margin-bottom: 2%;
+    }
+
+    .contact_content form textarea{
+      margin-bottom: 2%;
+    }
+
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
+    /*roadmap*/
+
+    .roadmap_content{
+      width: 70%;
+    }
+
+    .roadmap_content.mobile::after{
+      height: 120.5%;
+    }
+    
+    .roadmap_line_first .rdmp_line_right::after, .roadmap_line_third .rdmp_line_right::after, .roadmap_line_fifth .rdmp_line_right::after{
+      width: 67%;
+    }
+
+    .roadmap_line_second .rdmp_line_left::after, .roadmap_line_fourth .rdmp_line_left::after, .roadmap_line_sixth .rdmp_line_left::after{
+      width: 67%;
+    }
+
+    /*contact*/
+
+
+
+    .contact_content form input.name, .contact_content form input.email{
+      width: 80%;
+    }
+
+    .contact_content form textarea{
+      width: 80%;
+      height: 250px;
+    }
+
+    .contact_content form input.send{
+      width: 50%;
+    }
 }
 
 
@@ -21,6 +96,31 @@
 
 @media screen and (max-width:767px) {
 
+  /*roadmap*/
+
+  .roadmap_content{
+    width: 100%;
+  }
+
+      /*contact*/
+
+     
+      .contact_content form input.name, .contact_content form input.email{
+        width: 100%;
+        margin-bottom: 3%;
+        padding: 2%;
+      }
+  
+      .contact_content form textarea{
+        width: 100%;
+        margin-bottom: 3%;
+        padding: 2%;
+      }
+  
+      .contact_content form input.send{
+        width: 60%;
+        padding: 1.8%;
+      }
 }
 
 
@@ -29,6 +129,23 @@
 
 @media screen and (max-width:576px) {
 
+  /*roadmap*/
+
+  .roadmap_content{
+    margin-top: 20%;
+  }
+
+  .roadmap_content.mobile::after{
+    height: 118%;
+  }
+  
+  .roadmap_line_first .rdmp_line_right::after, .roadmap_line_third .rdmp_line_right::after, .roadmap_line_fifth .rdmp_line_right::after{
+    width: 59.5%;
+  }
+
+  .roadmap_line_second .rdmp_line_left::after, .roadmap_line_fourth .rdmp_line_left::after, .roadmap_line_sixth .rdmp_line_left::after{
+    width: 59.5%;
+  }
 }
 
 
