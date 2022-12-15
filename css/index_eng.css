@@ -3,7 +3,9 @@
     address{font-style:normal;}
 
 
-
+    #ecosystem .ecosystem_top ol li p {
+      width: 85%;
+  }
 
     
 /*데탑*/

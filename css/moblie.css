@@ -1,18 +1,32 @@
-
 /*데탑*/
-@media screen and (max-width:1440px) {
-}
+@media screen and (max-width:1440px) {}
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
+  h3 {
+    font-size: 2em;
+  }
+
+  /*platform  */
+
+  #platform {
+    padding: 20% 0;
+  }
+
+
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+
+  /* ecosystem */
+  #ecosystem .ecosystem_top ol li p {
+    width: 100%;
+  }
 }
 
 
@@ -20,7 +34,53 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  /* ecosystem */
+  #ecosystem .ecosystem_bottom::before {
+    width: 63%;
+    top: -12%;
+  }
 
+  #ecosystem .ecosystem_bottom .bottom_box .bottom_text ul {
+    flex-direction: column;
+  }
+
+  #ecosystem .ecosystem_bottom .bottom_box .bottom_text ul li {
+    width: 100%;
+    padding: 10% 0;
+  }
+
+  #ecosystem .ecosystem_bottom .bottom_box .bottom_text ul li:nth-child(2) {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+
+  }
+
+  /*   #ecosystem_02  */
+
+  #ecosystem_02 .ecosystem_02_area p br {
+    display: none;
+  }
+
+  #ecosystem_02 .ecosystem_02_area p br.must {
+    display: block;
+  }
+
+  /*platform  */
+
+  #platform .platform_area {
+    flex-direction: column;
+  }
+
+  #platform .platform_area .platform_txt {
+    width: 100%;
+  }
+
+  #platform .platform_area .platform_img {
+    width: 100%;
+    padding: 28% 0 10% 0;
+  }
 }
 
 
@@ -29,19 +89,68 @@
 
 @media screen and (max-width:576px) {
 
+  h3 {
+    font-size: 1.8em;
+  }
+
+  /* ecosystem */
+
+  #ecosystem .ecosystem_bottom::before {
+    width: 63%;
+    top: -9%;
+}
+
+  /*   #ecosystem_02  */
+
+  #ecosystem_02 .ecosystem_02_area h4,
+  #ecosystem .ecosystem_top ol li h4 {
+    font-size: 20px;
+  }
+
+  #ecosystem_02 .ecosystem_02_area {
+    width: 90%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  /*platform  */
+
+  #platform .platform_area .platform_txt p.btn span {
+    max-width: 180%;
+  }
 }
 
 
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
+@media screen and (max-width:425px) {
+
+  /* ecosystem */
+
+  #ecosystem .ecosystem_bottom .bottom_box .bottom_text ul li img{
+    width: 25%;
+  }
+
+  #ecosystem .ecosystem_bottom::before {
+    width: 70%;
+    top: -8%;
+}
+
+  /*platform  */
+  #platform .platform_area .platform_txt p.btn span {
+    max-width: 150%;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
 
 }
 
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
-
-}
+@media screen and (max-width:375px) {}
