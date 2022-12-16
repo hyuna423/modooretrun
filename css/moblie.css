@@ -1,18 +1,57 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+  /* 메뉴 */
+  .pc_menu {
+    width: 60%;
+  }
+  /* 홈 */
+  .home_wrap {
+    padding: 30% 10%;
+  }
+  .home_contents p.main_title {
+    font-size: 2.5em;
+  }
+
+  /* 푸터 */
+  .footer_area {
+    padding: 0;
+  }
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+  /* 메뉴 */
+    .pc_menu {
+      width: 80%;
+    }
+  /* 홈 */
+    #Home {
+      height: 850px;
+    }
+  /* 푸터 */
+    .f_right img {
+      max-width: 70%;
+    }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    /* 푸터 */
+    .footer_center {
+      flex-direction: column;
+    }
+    .footer_center .white_pp {
+      margin: 2% 0;
+      width: 20%;
+    }
+    .f_right {
+      margin-top: 2%;
+    }
 }
 
 
@@ -20,7 +59,33 @@
 /*모바일*/
 
 @media screen and (max-width:767px) {
+  /* 모바일 메뉴 전환 */
+  .pc_menu{
+    display: none;
+  }
+  .m_menu{
+    display: block;
+  }
+  .links a.btn-hover{
+    width: 26%;
+    padding: 1.5%;
+  }
 
+  .m_menu{
+    top: 30%;
+  }
+
+  /* 홈 버튼 */
+  .links {
+    margin-top: 10%;
+  }
+  /* 푸터 */
+  footer {
+    padding: 3% 10%;
+  }
+  .footer_center .white_pp {
+    width: 40%;
+  }
 }
 
 
@@ -28,7 +93,14 @@
 
 
 @media screen and (max-width:576px) {
-
+  /* 홈 글씨 */
+  .home_contents p.main_subtitle {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  .home_contents p.main_info {
+    font-size: 0.9em
+  }
 }
 
 
@@ -43,5 +115,20 @@
 
 /*모바일4 아이폰*/
     @media screen and (max-width:375px) {
-
+    /* 홈 */
+    .home_wrap {
+      padding: 50% 10%;
+    }
+    .home_contents p.main_info {
+      font-size: 0.75em
+    }
+    /* 홈 링크 버튼 */
+      .links {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+      }
+      .links a {
+        margin-bottom: 5%;
+      }
 }

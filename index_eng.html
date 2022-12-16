@@ -41,23 +41,24 @@
 
   <header>
 
-    <div class="">
+    <div class="hd_all container">
 
       <hgroup>
 
-        <h1><img src="img/" alt="logo"></h1>
+        <h1><a href="./index.html"><img src="img/MODOOLOGO2 1.png" alt="logo"></a></h1>
 
       </hgroup>
 
 
-      <nav class="">
+      <nav class="pc_menu">
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#Home" class="scroll">Home</a></li>
+          <li><a href="#about01" class="scroll">MODOO RETURN</a></li>
+          <li><a href="#platform" class="scroll">Platform</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="contact" class="scroll">Support</a></li>
+          <li class="lan_page"><a href="./index.html">Korea</a></li>
 
         </ul>
       </nav>
@@ -65,40 +66,123 @@
 
       <!--반응형-->
 
-      <div class="">
+      <div class="m_menu">
 
-        <img src="img/" alt="menu_button">
+        <!-- <img src="img/.png" alt="menu_button"> -->
+        <div class="menu-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
       </div>
 
-      <nav class="">
+      <nav class="m_menu_wrap">
 
         <ul>
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-
+          <li><a href="#Home" class="scroll">Home</a></li>
+          <li><a href="#about01" class="scroll">MODOO RETURN</a></li>
+          <li><a href="#platform" class="scroll">Platform</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Support</a></li>
+          <li class="kor_page"><a href="./index.html">Korea</a></li>
         </ul>
 
       </nav>
 
+    </div>
+
       <!--반응형 js-->
       <script type="text/javascript">
         $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
+          $(".menu-trigger").click(function () {
+            $(".m_menu_wrap").animate({ width: "toggle" }, 250);
           });
         });
 
       </script>
 
-    </div>
-
   </header>
 
+  <main>
+
+    <!-- Home 시작 -->
+    <section id="Home">
+      
+      <div class="main_vid">
+        <video autoplay="" muted="" loop="" playsinline="">
+          <source src="vid/main_vid.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="home_wrap">
+      <div class="home_contents container">
+        <p class="main_title">MODOO RETURN</p>
+        <p class="main_subtitle">You can exchange real gold for virtual currency<br> Mechanism</p>
+        <p class="main_info">A new ecosystem is formed by building an infrastructure that <br>
+          enables tokenization and real asset value conversion through blockchain technology</p>
+
+
+      <div class="links">
+        <a href="ModooReturn_whitepaper_eng.pdf" class="home-btn2">Whitepaper</a>
+
+        <a href="" class="home-btn2">Exchange</a>
+      </div>
+      </div>
+
+      <div class="platform_btn">
+        <a href=""><img src="./img/chevron-up.svg"></img></a>
+    </div>
+
+    </div>
+
+    </section><!-- Home 끝 -->
+
+  </main>
+
+
+<!-- 푸터 시작 -->
+  <footer>
+    <div class="footer_area container">
+      <div class="footer_top">
+      <h6>CONTACT US</h6>
+      </div>
+
+      <!-- info 영역 -->
+      <div class="footer_center">
+      <div class="f_left"><!-- 왼쪽 -->
+        <h5>회사명 : <span>MODOO RETURN</span></h5>
+        <h5>대표자 : <span>김병관</span></h5>
+        <h5>주소 : <span>서울 구로구 디지털로33길 55 (이앤씨벤처드림타워2차) 1302호</span></h5>
+        <h5>이메일 : <span>de0706@naver.com</span></h5>
+        <h5>TEL : <span>010-2740-8451</span></h5>
+      </div>
+
+      <div class="f_center"><!-- 가운데 -->
+        <div class="f_info">
+        <h5>사업자등록번호 : <span>394-64-00358</span></h5>
+        <h5>통신판매업신고 : <span>OOOO-성남분당-OOOO</span></h5>
+        </div>
+
+        <div class="white_pp">
+         <a href=""><i class="xi-telegram xi-2x"></i></a>
+         <a href="ModooReturn_whitepaper_ko.pdf"><img src="./img/fwep_ko.svg"></img></a>
+         <a href="ModooReturn_whitepaper_eng.pdf"><img src="./img/fwep_eng.svg"></img></a>
+        </div>
+      </div>
+
+      <div class="f_right"><!-- 끝 -->
+        <h1><a href="./index.html"><img src="./img/MODOLOGO3.png" alt="footer logo"></a></h1>
+      </div>
+      </div>
+
+      <!-- 카피라이트 -->
+      <div class="footer_bottom">
+        <p>COPYRIGHT (c) MODOO RETURN ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </footer>
 
 
   <script>
